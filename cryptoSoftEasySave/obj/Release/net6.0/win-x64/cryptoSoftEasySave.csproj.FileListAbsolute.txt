@@ -1,0 +1,15 @@
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\bin\Release\net6.0\win-x64\cryptoSoftEasySave.exe
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\bin\Release\net6.0\win-x64\cryptoSoftEasySave.deps.json
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\bin\Release\net6.0\win-x64\cryptoSoftEasySave.runtimeconfig.json
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\bin\Release\net6.0\win-x64\cryptoSoftEasySave.dll
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\bin\Release\net6.0\win-x64\cryptoSoftEasySave.pdb
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.csproj.AssemblyReference.cache
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.AssemblyInfoInputs.cache
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.AssemblyInfo.cs
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.csproj.CoreCompileInputs.cache
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.dll
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\refint\cryptoSoftEasySave.dll
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.pdb
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\cryptoSoftEasySave.genruntimeconfig.cache
+C:\Users\cocac\source\repos\RizSoto\cryptosoft\cryptoSoftEasySave\obj\Release\net6.0\win-x64\ref\cryptoSoftEasySave.dll

@@ -1,0 +1,5 @@
+C:\Program Files\cryptoSoftEasySave.exe
+C:\Program Files\cryptoSoftEasySave.dll
+C:\Program Files\cryptoSoftEasySave.deps.json
+C:\Program Files\cryptoSoftEasySave.runtimeconfig.json
+C:\Program Files\cryptoSoftEasySave.pdb

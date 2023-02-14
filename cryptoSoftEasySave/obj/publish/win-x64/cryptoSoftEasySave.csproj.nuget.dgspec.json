@@ -11,7 +11,7 @@
         "projectName": "cryptoSoftEasySave",
         "projectPath": "C:\\Users\\cocac\\Source\\Repos\\RizSoto\\cryptosoft\\cryptoSoftEasySave\\cryptoSoftEasySave.csproj",
         "packagesPath": "C:\\Users\\cocac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cocac\\source\\repos\\RizSoto\\cryptosoft\\cryptoSoftEasySave\\obj\\",
+        "outputPath": "C:\\Users\\cocac\\Source\\Repos\\RizSoto\\cryptosoft\\cryptoSoftEasySave\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,6 +61,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
