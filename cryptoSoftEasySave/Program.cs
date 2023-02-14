@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text;
 
 namespace cryptoSoftEasySave
 {
@@ -15,33 +16,55 @@ namespace cryptoSoftEasySave
             string mode = args[0];
             string sourceFile = args[1];
             string destFile = args[2];
-            string key = args[3]; // clé de chiffrement de 64 bits
-
+            byte[] key = Encoding.UTF8.GetBytes($"{args[3]}");
+            int blockSize = 4096;
             try
             {
-                byte[] source = File.ReadAllBytes(sourceFile);
-                byte[] dest = new byte[source.Length];
-
                 if (mode == "-c")
                 {
                     DateTime start = DateTime.Now;
-                    for (int i = 0; i < source.Length; i++)
+                    using (var inputStream = File.OpenRead(sourceFile))
+                    using (var outputStream = File.OpenWrite(destFile))
                     {
-                        dest[i] = (byte)(source[i] ^ key[i % key.Length]);
-                    }
+                        byte[] buffer = new byte[blockSize];
+                        int bytesRead;
+                        long totalBytesRead = 0;
 
-                    File.WriteAllBytes(destFile, dest);
+                        while ((bytesRead = inputStream.Read(buffer, 0, blockSize)) > 0)
+                        {
+                            for (int i = 0; i < bytesRead; i++)
+                            {
+                                buffer[i] = (byte)(buffer[i] ^ key[totalBytesRead % key.Length]);
+                                totalBytesRead++;
+                            }
+
+                            outputStream.Write(buffer, 0, bytesRead);
+                        }
+                    }
                     TimeSpan duration = DateTime.Now - start;
                     Environment.ExitCode = (int)duration.TotalMilliseconds;
                 }
                 else if (mode == "-d")
                 {
                     DateTime start = DateTime.Now;
-                    for (int i = 0; i < source.Length; i++)
+                    using (var inputStream = File.OpenRead(sourceFile))
+                    using (var outputStream = File.OpenWrite(destFile))
                     {
-                        dest[i] = (byte)(source[i] ^ key[i % key.Length]);
+                        byte[] buffer = new byte[blockSize];
+                        int bytesRead;
+                        long totalBytesRead = 0;
+
+                        while ((bytesRead = inputStream.Read(buffer, 0, blockSize)) > 0)
+                        {
+                            for (int i = 0; i < bytesRead; i++)
+                            {
+                                buffer[i] = (byte)(buffer[i] ^ key[totalBytesRead % key.Length]);
+                                totalBytesRead++;
+                            }
+
+                            outputStream.Write(buffer, 0, bytesRead);
+                        }
                     }
-                    File.WriteAllBytes(destFile, dest);
                     TimeSpan duration = DateTime.Now - start;
                     Environment.ExitCode = (int)duration.TotalMilliseconds;
                 }
@@ -49,6 +72,7 @@ namespace cryptoSoftEasySave
                 {
                     Environment.ExitCode = -1;
                 }
+
             }
             catch (Exception ex)
             {
