@@ -1,0 +1,15 @@
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\bin\Debug\net6.0\cryptoSoftEasySave.exe
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\bin\Debug\net6.0\cryptoSoftEasySave.deps.json
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\bin\Debug\net6.0\cryptoSoftEasySave.runtimeconfig.json
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\bin\Debug\net6.0\cryptoSoftEasySave.dll
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\bin\Debug\net6.0\cryptoSoftEasySave.pdb
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.csproj.AssemblyReference.cache
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.AssemblyInfoInputs.cache
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.AssemblyInfo.cs
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.csproj.CoreCompileInputs.cache
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.dll
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\refint\cryptoSoftEasySave.dll
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.pdb
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\cryptoSoftEasySave.genruntimeconfig.cache
+C:\Users\cocac\source\repos\cryptoSoftEasySave\cryptoSoftEasySave\obj\Debug\net6.0\ref\cryptoSoftEasySave.dll
